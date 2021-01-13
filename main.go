@@ -1,7 +1,12 @@
 package main
 
-import "./chapter1"
+import (
+	"./chapter2"
+	"fmt"
+)
 
 func main() {
-	chapter1.Server3()
+	fmt.Println(chapter2.CToF(chapter2.AbsoluteZeroC))
+	fmt.Println(chapter2.CToF(chapter2.FreezingC))
+	fmt.Println(chapter2.CToF(chapter2.BoilingC))
 }
