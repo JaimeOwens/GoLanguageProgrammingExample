@@ -1,12 +1,9 @@
 package main
 
 import (
-	"./chapter2"
-	"fmt"
+	"./chapter3"
 )
 
 func main() {
-	fmt.Println(chapter2.CToF(chapter2.AbsoluteZeroC))
-	fmt.Println(chapter2.CToF(chapter2.FreezingC))
-	fmt.Println(chapter2.CToF(chapter2.BoilingC))
+	chapter3.PrintInts()
 }
