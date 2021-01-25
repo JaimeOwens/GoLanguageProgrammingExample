@@ -1,9 +1,7 @@
 package main
 
-import (
-	"./chapter3"
-)
+import "gopl/chapter4"
 
 func main() {
-	chapter3.PrintInts()
+	chapter4.Autoescape()
 }

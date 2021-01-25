@@ -11,7 +11,7 @@
             "mode": "debug",
             "program": "${fileWorkspaceFolder}",
             "env": {"GOPATH":"/home/jamie/go/gopl"},
-            "args": []
+            "args": ["gopl.io/ch4/issues"]
         }
     ]
 }
