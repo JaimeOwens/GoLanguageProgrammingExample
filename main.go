@@ -1,7 +1,7 @@
 package main
 
-import "gopl/chapter4"
+import "gopl/chapter13"
 
 func main() {
-	chapter4.Autoescape()
+	chapter13.Bzipper()
 }
