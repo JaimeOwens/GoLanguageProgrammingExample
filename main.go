@@ -1,7 +1,9 @@
 package main
 
-import "gopl/chapter13"
+import (
+	"gopl/chapter5"
+)
 
 func main() {
-	chapter13.Bzipper()
+	chapter5.Sum()
 }
