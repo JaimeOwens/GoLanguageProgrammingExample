@@ -1,9 +1,9 @@
 package main
 
 import (
-	"gopl/chapter5"
+	"gopl/chapter8"
 )
 
 func main() {
-	chapter5.Sum()
+	chapter8.HandleConn()
 }
