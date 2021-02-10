@@ -1,4 +1,4 @@
-package chapter
+package chapter10
 
 import (
 	"fmt"

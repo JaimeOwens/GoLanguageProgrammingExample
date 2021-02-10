@@ -46,9 +46,13 @@ loop:
 			if !ok {
 				break loop
 			}
+			nfiles++
+			nbytes += size
+		case <-tick:
+			printDiskUsage(nfiles, nbytes)
 		}
 	}
-
+	printDiskUsage(nfiles, nbytes)
 }
 
 func cancelled() bool {
